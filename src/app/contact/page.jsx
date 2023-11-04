@@ -5,16 +5,14 @@ import NewsLetter from "@/components/NewsLetter";
 import React from "react";
 
 const page = () => {
-  return (
-    <>
-      <Header />
-      {/* Contact section */}
-      <Contact />
-      {/* NewsLetter section */}
-      <NewsLetter />
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <Header/>
+            <Contact/>
+            <NewsLetter/>
+            <Footer/>
+        </>
+    );
 };
 
 export default page;

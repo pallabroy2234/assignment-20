@@ -5,18 +5,15 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 const page = () => {
-  return (
-    <>
-      <Header />
-      {/* About info */}
-      <AboutInfo />
-      {/* Counter */}
-      <Counter />
-      {/* Team */}
-      <Team />
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <Header/>
+            <AboutInfo/>
+            <Counter/>
+            <Team/>
+            <Footer/>
+        </>
+    );
 };
 
 export default page;

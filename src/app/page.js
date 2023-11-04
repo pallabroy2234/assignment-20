@@ -6,20 +6,16 @@ import HowItWork from "@/components/HomePageCmp/HowItWork";
 import NewsLetter from "@/components/NewsLetter";
 
 const page = () => {
-  return (
-    <>
-      <Header />
-      {/* hero section */}
-      <Hero />
-      {/* Feature Section */}
-      <Feature />
-      {/*How It Work Section */}
-      <HowItWork />
-      {/* NewsLetter Section */}
-      <NewsLetter />
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <Header/>
+            <Hero/>
+            <Feature/>
+            <HowItWork/>
+            <NewsLetter/>
+            <Footer/>
+        </>
+    );
 };
 
 export default page;

@@ -6,18 +6,15 @@ import NewsLetter from "@/components/NewsLetter";
 import React from "react";
 
 const page = () => {
-  return (
-    <div>
-      <Header />
-      {/* blog section */}
-      <Blog />
-      {/* action section */}
-      <Action />
-      {/* news letter section */}
-      <NewsLetter />
-      <Footer />
-    </div>
-  );
+    return (
+        <div>
+            <Header/>
+            <Blog/>
+            <Action/>
+            <NewsLetter/>
+            <Footer/>
+        </div>
+    );
 };
 
 export default page;

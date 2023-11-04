@@ -6,18 +6,15 @@ import Service from "@/components/ServicePageCmp/Service";
 import React from "react";
 
 const page = () => {
-  return (
-    <>
-      <Header />
-      {/* service section */}
-      <Service />
-      {/* price section */}
-      <Price />
-      {/* action section */}
-      <Action />
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <Header/>
+            <Service/>
+            <Price/>
+            <Action/>
+            <Footer/>
+        </>
+    );
 };
 
 export default page;
